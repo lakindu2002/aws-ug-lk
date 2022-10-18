@@ -1559,7 +1559,7 @@ img.pull-right {
   margin: auto auto 20px;
 }
 
-.ts-speaker .speaker-img img {
+/* .ts-speaker .speaker-img img {
   width: 100%;
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
@@ -1569,7 +1569,7 @@ img.pull-right {
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   -ms-transition: all 0.4s ease;
-}
+} */
 
 .ts-speaker .speaker-img:before {
   position: absolute;
@@ -1579,6 +1579,7 @@ img.pull-right {
   height: 100%;
   content: '';
   background: rgba(59, 29, 130, 0.5);
+  border-radius: 50%;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;

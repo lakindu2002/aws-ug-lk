@@ -164,25 +164,25 @@ jQuery(function ($) {
     });
   }
 
-  /*=============================================================
-			 speaker popup
-	=========================================================================*/
+  // /*=============================================================
+	// 		 speaker popup
+	// =========================================================================*/
 
-  $(".ts-image-popup").magnificPopup({
-    type: "inline",
-    closeOnContentClick: false,
-    midClick: true,
-    callbacks: {
-      beforeOpen: function () {
-        this.st.mainClass = this.st.el.attr("data-effect");
-      },
-    },
-    zoom: {
-      enabled: true,
-      duration: 500, // don't foget to change the duration also in CSS
-    },
-    mainClass: "mfp-fade",
-  });
+  // $(".ts-image-popup").magnificPopup({
+  //   type: "inline",
+  //   closeOnContentClick: false,
+  //   midClick: true,
+  //   callbacks: {
+  //     beforeOpen: function () {
+  //       this.st.mainClass = this.st.el.attr("data-effect");
+  //     },
+  //   },
+  //   zoom: {
+  //     enabled: true,
+  //     duration: 500, // don't foget to change the duration also in CSS
+  //   },
+  //   mainClass: "mfp-fade",
+  // });
 
   /*=============================================================
    			gallery
