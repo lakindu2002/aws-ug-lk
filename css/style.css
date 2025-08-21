@@ -4368,3 +4368,8 @@ faq-item
 .mfp-iframe-holder .mfp-content .mfp-iframe-scaler {
   height: 90%;
 }
+
+.agenda-container {
+  padding-left: 50px;
+  padding-right: 50px;
+}
