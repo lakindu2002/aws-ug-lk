@@ -62,6 +62,26 @@
     .image-border {
       border-radius: 20px;
     }
+    .btn-primary {
+      background-color: #FFD700 !important;
+      border-color: #FFD700 !important;
+      color: #000000 !important;
+    }
+    .schedule-cta {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 16px 0;
+      margin: 12px auto 40px;
+      width: 100%;
+    }
+
+    .schedule-cta .btn,
+    .schedule-cta a,
+    .schedule-cta button {
+      display: inline-block;
+      margin: 0 auto;       /* ensures center even without flex */
+    }
   </style>
 </head>
 
@@ -203,7 +223,12 @@
               AWS Community Day Sri Lanka 2025 - Event Schedule 
             </h2>
           </div>
-        </div> 
+        </div>
+        <div class="row justify-content-center align-items-center buy-tickets-container my-4">
+          <div class="col-12 d-flex justify-content-center">
+            <a href="https://tickets.lk/EventDetails?eventId=4131&name=AWS%20Community%20Day%202025&summary=null&tagLine=null" target="_blank" class="btn btn-primary">Buy Tickets</a>
+          </div>
+        </div>
       <div class="row">
           <div class="col-lg-12">
             <div class="tab-content schedule-tabs">
@@ -407,7 +432,7 @@
                   </div>
                   <div class="schedule-slot-info">
                     <div class="schedule-slot-info-content">
-                      <h3 class="schedule-slot-title">Closing Announcements & Goodies</h3>
+                      <h3 class="schedule-slot-title">Closing Announcements </h3>
                     </div>
                   </div>
                 </div>
