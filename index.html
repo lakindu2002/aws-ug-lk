@@ -62,11 +62,13 @@
     .image-border {
       border-radius: 20px;
     }
+
     .btn-primary {
       background-color: #FFD700 !important;
       border-color: #FFD700 !important;
       color: #000000 !important;
     }
+
     .schedule-cta {
       display: flex;
       justify-content: center;
@@ -80,7 +82,38 @@
     .schedule-cta a,
     .schedule-cta button {
       display: inline-block;
-      margin: 0 auto;       /* ensures center even without flex */
+      margin: 0 auto;
+      /* ensures center even without flex */
+    }
+
+    .banner-cta {
+      margin: 30px 0;
+      text-align: left;
+      width: 100%;
+      clear: both;
+    }
+
+    .banner-cta .btn {
+      padding: 15px 40px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 30px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
+      transition: all 0.3s ease;
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 1.2;
+      text-decoration: none;
+      border: none;
+      min-width: 200px;
+    }
+
+    .banner-cta .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(255, 215, 0, 0.4);
     }
   </style>
 </head>
@@ -99,9 +132,13 @@
               <div class="banner-content-wrap">
                 <!-- Countdown end -->
                 <h1 class="banner-title animate__animated animate__fadeInLeft" data-wow-duration="1.5s"
-                  data-wow-delay="700ms" style="font-size: 40px">
-                  Coming Soon
+                  data-wow-delay="700ms" style="font-size: 32px; line-height: 1.2;">
+                  AWS Community Day Sri Lanka
                 </h1>
+                <h2 class="banner-subtitle animate__animated animate__fadeInLeft" data-wow-duration="1.5s"
+                  data-wow-delay="750ms" style="font-size: 28px; margin-top: 10px; margin-bottom: 20px; color: white;">
+                  19th September 2025
+                </h2>
 
                 <div class="countdown animate__animated animate__zoomIn" data-wow-duration="1.5s"
                   data-wow-delay="800ms">
@@ -130,16 +167,26 @@
                 <p class="banner-info animate__animated animate__fadeInRight" data-wow-duration="1.5s"
                   data-wow-delay="500ms">
                   <span style="font-size: 20px">
-  AWS Community and guest speakers will dive deep into the latest <b>trends</b>, <b>techniques</b>, 
-  and <b>best practices</b> for <b>deploying</b>, <b>managing</b>, <b>securing</b>, and <b>scaling</b> workloads on AWS. 
-  This year’s sessions will bring together <b>real-world applications</b>, <b>cloud security</b>, <b>AI</b>, 
-  and <b>modern architectures</b> all in a single continuous track designed to deliver maximum value and insights.
-                </span>
+                    AWS Community and guest speakers will dive deep into the latest <b>trends</b>, <b>techniques</b>,
+                    and <b>best practices</b> for <b>deploying</b>, <b>managing</b>, <b>securing</b>, and <b>scaling</b>
+                    workloads on AWS.
+                    This year's sessions will bring together <b>real-world applications</b>, <b>cloud security</b>,
+                    <b>AI</b>,
+                    and <b>modern architectures</b> all in a single continuous track designed to deliver maximum value
+                    and insights.
+                  </span>
 
                   <br />
                   <br />
                   19th September 2025 @ Marino Beach Colombo<br />
                 </p>
+
+                <!-- Buy Tickets Button -->
+                <div class="banner-cta animate__animated animate__fadeInUp" data-wow-duration="1.5s"
+                  data-wow-delay="900ms">
+                  <a href="https://tickets.lk/EventDetails?eventId=4131&name=AWS%20Community%20Day%202025&summary=null&tagLine=null"
+                    target="_blank" class="btn btn-primary btn-lg">Buy Tickets</a>
+                </div>
               </div>
               <!-- Banner content wrap end -->
             </div>
@@ -216,230 +263,234 @@
       </div>
       <!-- Memories Gallery End -->
 
-    <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2 class="section-title white">
-              <span>Event Schedule</span>
-              AWS Community Day Sri Lanka 2025 - Event Schedule 
-            </h2>
-          </div>
-        </div>
-        <div class="row justify-content-center align-items-center buy-tickets-container my-4">
-          <div class="col-12 d-flex justify-content-center">
-            <a href="https://tickets.lk/EventDetails?eventId=4131&name=AWS%20Community%20Day%202025&summary=null&tagLine=null" target="_blank" class="btn btn-primary">Buy Tickets</a>
-          </div>
-        </div>
       <div class="row">
-          <div class="col-lg-12">
-            <div class="tab-content schedule-tabs">
-              <div role="tabpanel" class="tab-pane active" id="date1">
-                <div class="schedule-listing wow animate__animated animate__fadeInLeft">
-                  <div class="schedule-slot-time">
-                    <span>7:30 – 8:30</span>
-                  </div>
-                  <div class="schedule-slot-info">
-                    <div class="schedule-slot-info-content">
-                      <h3 class="schedule-slot-title">Registration & Morning Snacks</h3>
-                    </div>
+        <div class="col-lg-8 mx-auto">
+          <h2 class="section-title white">
+            <span>Event Schedule</span>
+            AWS Community Day Sri Lanka 2025 - Event Schedule
+          </h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="tab-content schedule-tabs">
+            <div role="tabpanel" class="tab-pane active" id="date1">
+              <div class="schedule-listing wow animate__animated animate__fadeInLeft">
+                <div class="schedule-slot-time">
+                  <span>7:30 – 8:30</span>
+                </div>
+                <div class="schedule-slot-info">
+                  <div class="schedule-slot-info-content">
+                    <h3 class="schedule-slot-title">Registration & Morning Snacks</h3>
                   </div>
                 </div>
-                <div class="schedule-listing wow animate__animated animate__fadeInRight">
-                  <div class="schedule-slot-time">
-                    <span>8:30 – 8:50</span>
-                  </div>
-                  <div class="schedule-slot-info">
-                    <div class="schedule-slot-info-content">
-                      <h3 class="schedule-slot-title">Oil Lamp Ceremony & Traditional Dance</h3>
-                    </div>
+              </div>
+              <div class="schedule-listing wow animate__animated animate__fadeInRight">
+                <div class="schedule-slot-time">
+                  <span>8:30 – 8:50</span>
+                </div>
+                <div class="schedule-slot-info">
+                  <div class="schedule-slot-info-content">
+                    <h3 class="schedule-slot-title">Oil Lamp Ceremony & Traditional Dance</h3>
                   </div>
                 </div>
-                <div class="schedule-listing wow animate__animated animate__fadeInLeft">
-                  <div class="schedule-slot-time">
-                    <span>8:50 – 9:10</span>
-                  </div>
-                  <div class="schedule-slot-info">
-                    <div class="schedule-slot-info-content">
-                      <h3 class="schedule-slot-title">Opening Talk</h3>
-                      <p class="speaker-name">By: Ridhima Kapoor </p>
-                    </div>
+              </div>
+              <div class="schedule-listing wow animate__animated animate__fadeInLeft">
+                <div class="schedule-slot-time">
+                  <span>8:50 – 9:10</span>
+                </div>
+                <div class="schedule-slot-info">
+                  <div class="schedule-slot-info-content">
+                    <h3 class="schedule-slot-title">Opening Talk</h3>
+                    <p class="speaker-name">By: Ridhima Kapoor </p>
                   </div>
                 </div>
-                <div class="schedule-listing wow animate__animated animate__fadeInRight">
-                  <div class="schedule-slot-time">
-                    <span>9:10 – 9:55</span>
-                  </div>
-                  <div class="schedule-slot-info">
-                    <div class="schedule-slot-info-content">
-                      <h3 class="schedule-slot-title">Keynote: Building Resilient AI: Architecture Strategies for Mission-Critical Deployments</h3>
-                      <p class="speaker-name">By: Anuradha Weeraman</p>
-                    </div>
+              </div>
+              <div class="schedule-listing wow animate__animated animate__fadeInRight">
+                <div class="schedule-slot-time">
+                  <span>9:10 – 9:55</span>
+                </div>
+                <div class="schedule-slot-info">
+                  <div class="schedule-slot-info-content">
+                    <h3 class="schedule-slot-title">Keynote: Building Resilient AI: Architecture Strategies for
+                      Mission-Critical Deployments</h3>
+                    <p class="speaker-name">By: Anuradha Weeraman</p>
                   </div>
                 </div>
-                <div class="schedule-listing wow animate__animated animate__fadeInLeft">
-                  <div class="schedule-slot-time">
-                    <span>9:55 – 10:40</span>
-                  </div>
-                  <div class="schedule-slot-info">
-                    <div class="schedule-slot-info-content">
-                      <h3 class="schedule-slot-title">Panel Discussion</h3>
-                      <p class="speaker-name">Panelists TBA</p>
-                    </div>
+              </div>
+              <div class="schedule-listing wow animate__animated animate__fadeInLeft">
+                <div class="schedule-slot-time">
+                  <span>9:55 – 10:40</span>
+                </div>
+                <div class="schedule-slot-info">
+                  <div class="schedule-slot-info-content">
+                    <h3 class="schedule-slot-title">Panel Discussion</h3>
+                    <p class="speaker-name">Panelists TBA</p>
                   </div>
                 </div>
-                <div class="schedule-listing wow animate__animated animate__fadeInRight">
-                  <div class="schedule-slot-time">
-                    <span>10:40 – 10:50</span>
-                  </div>
-                  <div class="schedule-slot-info">
-                    <div class="schedule-slot-info-content">
-                      <h3 class="schedule-slot-title">Announcements & Sponsor Recognition</h3>
-                    </div>
+              </div>
+              <div class="schedule-listing wow animate__animated animate__fadeInRight">
+                <div class="schedule-slot-time">
+                  <span>10:40 – 10:50</span>
+                </div>
+                <div class="schedule-slot-info">
+                  <div class="schedule-slot-info-content">
+                    <h3 class="schedule-slot-title">Announcements & Sponsor Recognition</h3>
                   </div>
                 </div>
-                <div class="schedule-listing wow animate__animated animate__fadeInLeft">
-                  <div class="schedule-slot-time">
-                    <span>10:50 – 11:20</span>
-                  </div>
-                  <div class="schedule-slot-info">
-                    <div class="schedule-slot-info-content">
-                      <h3 class="schedule-slot-title">Main Sponsor Talk: Lessons from the Trenches: Processing High-Throughput Real-Time Feeds on AWS</h3>
-                      <p class="speaker-name">By: Manoj Fernando</p>
-                    </div>
+              </div>
+              <div class="schedule-listing wow animate__animated animate__fadeInLeft">
+                <div class="schedule-slot-time">
+                  <span>10:50 – 11:20</span>
+                </div>
+                <div class="schedule-slot-info">
+                  <div class="schedule-slot-info-content">
+                    <h3 class="schedule-slot-title">Main Sponsor Talk: Lessons from the Trenches: Processing
+                      High-Throughput Real-Time Feeds on AWS</h3>
+                    <p class="speaker-name">By: Manoj Fernando</p>
                   </div>
                 </div>
-                <div class="schedule-listing wow animate__animated animate__fadeInRight">
-                  <div class="schedule-slot-time">
-                    <span>11:20 – 11:50</span>
-                  </div>
-                  <div class="schedule-slot-info">
-                    <div class="schedule-slot-info-content">
-                      <h3 class="schedule-slot-title">SWARM Architecture: Segregated Walkpath-driven Asynchronous Reactive Model for Million-Scale Events</h3>
-                      <p class="speaker-name">By: Krishantha Dinesh</p>
-                    </div>
+              </div>
+              <div class="schedule-listing wow animate__animated animate__fadeInRight">
+                <div class="schedule-slot-time">
+                  <span>11:20 – 11:50</span>
+                </div>
+                <div class="schedule-slot-info">
+                  <div class="schedule-slot-info-content">
+                    <h3 class="schedule-slot-title">SWARM Architecture: Segregated Walkpath-driven Asynchronous Reactive
+                      Model for Million-Scale Events</h3>
+                    <p class="speaker-name">By: Krishantha Dinesh</p>
                   </div>
                 </div>
-                <div class="schedule-listing wow animate__animated animate__fadeInLeft">
-                  <div class="schedule-slot-time">
-                    <span>12:00 – 1:00</span>
-                  </div>
-                  <div class="schedule-slot-info">
-                    <div class="schedule-slot-info-content">
-                      <h3 class="schedule-slot-title">Lunch & Networking</h3>
-                    </div>
+              </div>
+              <div class="schedule-listing wow animate__animated animate__fadeInLeft">
+                <div class="schedule-slot-time">
+                  <span>12:00 – 1:00</span>
+                </div>
+                <div class="schedule-slot-info">
+                  <div class="schedule-slot-info-content">
+                    <h3 class="schedule-slot-title">Lunch & Networking</h3>
                   </div>
                 </div>
-                <div class="schedule-listing wow animate__animated animate__fadeInRight">
-                  <div class="schedule-slot-time">
-                    <span>1:00 – 1:30</span>
-                  </div>
-                  <div class="schedule-slot-info">
-                    <div class="schedule-slot-info-content">
-                      <h3 class="schedule-slot-title">Scaling EdTech: Multi-Tenancy, Data Lakes, and Real-Time Video on AWS</h3>
-                      <p class="speaker-name">By: Dasith Vidanage, Lakindu Hewawasam</p>
-                    </div>
+              </div>
+              <div class="schedule-listing wow animate__animated animate__fadeInRight">
+                <div class="schedule-slot-time">
+                  <span>1:00 – 1:30</span>
+                </div>
+                <div class="schedule-slot-info">
+                  <div class="schedule-slot-info-content">
+                    <h3 class="schedule-slot-title">Scaling EdTech: Multi-Tenancy, Data Lakes, and Real-Time Video on
+                      AWS</h3>
+                    <p class="speaker-name">By: Dasith Vidanage, Lakindu Hewawasam</p>
                   </div>
                 </div>
-                <div class="schedule-listing wow animate__animated animate__fadeInLeft">
-                  <div class="schedule-slot-time">
-                    <span>1:30 – 2:00</span>
-                  </div>
-                  <div class="schedule-slot-info">
-                    <div class="schedule-slot-info-content">
-                      <h3 class="schedule-slot-title">Agentic AI in Action: Transforming Enterprise Workflows with Amazon Q Business</h3>
-                      <p class="speaker-name">By: Anil Pradeep Kumara</p>
-                    </div>
+              </div>
+              <div class="schedule-listing wow animate__animated animate__fadeInLeft">
+                <div class="schedule-slot-time">
+                  <span>1:30 – 2:00</span>
+                </div>
+                <div class="schedule-slot-info">
+                  <div class="schedule-slot-info-content">
+                    <h3 class="schedule-slot-title">Agentic AI in Action: Transforming Enterprise Workflows with Amazon
+                      Q Business</h3>
+                    <p class="speaker-name">By: Anil Pradeep Kumara</p>
                   </div>
                 </div>
-                <div class="schedule-listing wow animate__animated animate__fadeInRight">
-                  <div class="schedule-slot-time">
-                    <span>2:00 – 2:20</span>
-                  </div>
-                  <div class="schedule-slot-info">
-                    <div class="schedule-slot-info-content">
-                      <h3 class="schedule-slot-title">Quiz</h3>
-                      <p class="speaker-name">By: Lahiru, Chameera</p>
-                    </div>
+              </div>
+              <div class="schedule-listing wow animate__animated animate__fadeInRight">
+                <div class="schedule-slot-time">
+                  <span>2:00 – 2:20</span>
+                </div>
+                <div class="schedule-slot-info">
+                  <div class="schedule-slot-info-content">
+                    <h3 class="schedule-slot-title">Quiz</h3>
+                    <p class="speaker-name">By: Lahiru, Chameera</p>
                   </div>
                 </div>
-                <div class="schedule-listing wow animate__animated animate__fadeInLeft">
-                  <div class="schedule-slot-time">
-                    <span>2:20 – 2:50</span>
-                  </div>
-                  <div class="schedule-slot-info">
-                    <div class="schedule-slot-info-content">
-                      <h3 class="schedule-slot-title">Zero to $1M ARR: Lessons from Velaris’ Cloud-Native SaaS Journey on AWS</h3>
-                      <p class="speaker-name">By: Udara Wijeratna</p>
-                    </div>
+              </div>
+              <div class="schedule-listing wow animate__animated animate__fadeInLeft">
+                <div class="schedule-slot-time">
+                  <span>2:20 – 2:50</span>
+                </div>
+                <div class="schedule-slot-info">
+                  <div class="schedule-slot-info-content">
+                    <h3 class="schedule-slot-title">Zero to $1M ARR: Lessons from Velaris’ Cloud-Native SaaS Journey on
+                      AWS</h3>
+                    <p class="speaker-name">By: Udara Wijeratna</p>
                   </div>
                 </div>
-                <div class="schedule-listing wow animate__animated animate__fadeInRight">
-                  <div class="schedule-slot-time">
-                    <span>2:50 – 3:20</span>
-                  </div>
-                  <div class="schedule-slot-info">
-                    <div class="schedule-slot-info-content">
-                      <h3 class="schedule-slot-title">Building Autonomous AI Agents with Amazon Bedrock AgentCore</h3>
-                      <p class="speaker-name">By: Vinod Kumar</p>
-                    </div>
+              </div>
+              <div class="schedule-listing wow animate__animated animate__fadeInRight">
+                <div class="schedule-slot-time">
+                  <span>2:50 – 3:20</span>
+                </div>
+                <div class="schedule-slot-info">
+                  <div class="schedule-slot-info-content">
+                    <h3 class="schedule-slot-title">Building Autonomous AI Agents with Amazon Bedrock AgentCore</h3>
+                    <p class="speaker-name">By: Vinod Kumar</p>
                   </div>
                 </div>
-                <div class="schedule-listing wow animate__animated animate__fadeInLeft">
-                  <div class="schedule-slot-time">
-                    <span>3:20 – 3:50</span>
-                  </div>
-                  <div class="schedule-slot-info">
-                    <div class="schedule-slot-info-content">
-                      <h3 class="schedule-slot-title">Tea / Networking Break</h3>
-                    </div>
+              </div>
+              <div class="schedule-listing wow animate__animated animate__fadeInLeft">
+                <div class="schedule-slot-time">
+                  <span>3:20 – 3:50</span>
+                </div>
+                <div class="schedule-slot-info">
+                  <div class="schedule-slot-info-content">
+                    <h3 class="schedule-slot-title">Tea / Networking Break</h3>
                   </div>
                 </div>
-                <div class="schedule-listing wow animate__animated animate__fadeInRight">
-                  <div class="schedule-slot-time">
-                    <span>3:50 – 4:10</span>
-                  </div>
-                  <div class="schedule-slot-info">
-                    <div class="schedule-slot-info-content">
-                      <h3 class="schedule-slot-title">Sysco’s Platform-Engineering Journey: Scaling Developer Experience in a Multi-Cloud World with AWS</h3>
-                      <p class="speaker-name">By: Ravindu Nirmal Fernando</p>
-                    </div>
+              </div>
+              <div class="schedule-listing wow animate__animated animate__fadeInRight">
+                <div class="schedule-slot-time">
+                  <span>3:50 – 4:10</span>
+                </div>
+                <div class="schedule-slot-info">
+                  <div class="schedule-slot-info-content">
+                    <h3 class="schedule-slot-title">Sysco’s Platform-Engineering Journey: Scaling Developer Experience
+                      in a Multi-Cloud World with AWS</h3>
+                    <p class="speaker-name">By: Ravindu Nirmal Fernando</p>
                   </div>
                 </div>
-                <div class="schedule-listing wow animate__animated animate__fadeInLeft">
-                  <div class="schedule-slot-time">
-                    <span>4:10 – 4:40</span>
-                  </div>
-                  <div class="schedule-slot-info">
-                    <div class="schedule-slot-info-content">
-                      <h3 class="schedule-slot-title">From Alerts to Action: AI-Powered SOC Automation</h3>
-                      <p class="speaker-name">By: Lahiru Hewawasam</p>
-                    </div>
+              </div>
+              <div class="schedule-listing wow animate__animated animate__fadeInLeft">
+                <div class="schedule-slot-time">
+                  <span>4:10 – 4:40</span>
+                </div>
+                <div class="schedule-slot-info">
+                  <div class="schedule-slot-info-content">
+                    <h3 class="schedule-slot-title">From Alerts to Action: AI-Powered SOC Automation</h3>
+                    <p class="speaker-name">By: Lahiru Hewawasam</p>
                   </div>
                 </div>
-                <div class="schedule-listing wow animate__animated animate__fadeInRight">
-                  <div class="schedule-slot-time">
-                    <span>4:40 – 5:10</span>
-                  </div>
-                  <div class="schedule-slot-info">
-                    <div class="schedule-slot-info-content">
-                      <h3 class="schedule-slot-title">From Observability to AIOps: Architecting Self-Healing Systems on AWS </h3>
-                      <p class="speaker-name">By: Indika Wimalasuriya </p>
-                    </div>
+              </div>
+              <div class="schedule-listing wow animate__animated animate__fadeInRight">
+                <div class="schedule-slot-time">
+                  <span>4:40 – 5:10</span>
+                </div>
+                <div class="schedule-slot-info">
+                  <div class="schedule-slot-info-content">
+                    <h3 class="schedule-slot-title">From Observability to AIOps: Architecting Self-Healing Systems on
+                      AWS </h3>
+                    <p class="speaker-name">By: Indika Wimalasuriya </p>
                   </div>
                 </div>
-                <div class="schedule-listing wow animate__animated animate__fadeInLeft">
-                  <div class="schedule-slot-time">
-                    <span>5:10 – 5:30</span>
-                  </div>
-                  <div class="schedule-slot-info">
-                    <div class="schedule-slot-info-content">
-                      <h3 class="schedule-slot-title">Closing Announcements </h3>
-                    </div>
+              </div>
+              <div class="schedule-listing wow animate__animated animate__fadeInLeft">
+                <div class="schedule-slot-time">
+                  <span>5:10 – 5:30</span>
+                </div>
+                <div class="schedule-slot-info">
+                  <div class="schedule-slot-info-content">
+                    <h3 class="schedule-slot-title">Closing Announcements </h3>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
   </div>
   </section>
 
